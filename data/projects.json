@@ -1,0 +1,118 @@
+[
+  {
+    "id": "stock-inventory",
+    "index": "01",
+    "title": "Stock Inventory Management",
+    "year": "2026",
+    "tools": ["Figma"],
+    "category": "Enterprise Tool",
+    "overview": "A sophisticated enterprise tool designed to manage complex inventory movements across global warehouses. The system focuses on visibility, preventing stock-outs, and automating the reconciliation process.",
+    "problem": "The client had a massive company structure broken down into multiple facilities under the HQ. While their operation uses a centralized system from the HQ to allocate stocks, it's difficult for the HQ to manage stocks, allocate them to each individual facility, and to predict whether they have sufficient stock or not.",
+    "solution": "We built a centralized source of truth with a focus on 'transfer state' — ensuring items are tracked not just in the HQ, but between facilities. With live notifications for stock status tracking on each individual facility, and a solid reconciliation workflow to accommodate mis-transfers or facilities failing to receive items.",
+    "features": [
+      {
+        "title": "Real-time Tracking",
+        "description": "Every unit monitored from arrival to point-of-sale with sub-second latency."
+      },
+      {
+        "title": "Multi-Facility Management",
+        "description": "Centralized stock transfer logic to balance inventory levels dynamically across facilities."
+      },
+      {
+        "title": "Low-stock Alerts",
+        "description": "Predictive triggers that notify procurement before stock levels reach critical lows."
+      },
+      {
+        "title": "Transfer Fail Reconciliation",
+        "description": "Solid flow to ensure failed transfers are logged and stated in audit trails."
+      }
+    ]
+  },
+  {
+    "id": "design-system",
+    "index": "02",
+    "title": "Reusable Design System",
+    "year": "2025",
+    "tools": ["Figma"],
+    "category": "Design Infrastructure",
+    "overview": "A comprehensive, multi-use design system engineered for consistency and speed. Developed following atomic design principles to serve an ever-growing SaaS platform.",
+    "problem": "Product teams were rebuilding common elements like buttons and modals from scratch, leading to UI drift and significant engineering waste across multiple product lines.",
+    "solution": "We created a shared Figma library and React implementation that standardized over 100 components, backed by clear documentation and Tailwind CSS design tokens for seamless engineering translation.",
+    "features": [
+      {
+        "title": "Atomic Structure",
+        "description": "Organized from atoms to organisms for maximum composition flexibility."
+      },
+      {
+        "title": "Variant Tokens",
+        "description": "Every component property tied to a semantic design token for easy theming."
+      },
+      {
+        "title": "Auto-layout System",
+        "description": "Standardized spacing patterns that scale perfectly across all breakpoints."
+      },
+      {
+        "title": "Tailwind CSS Standard",
+        "description": "Used Tailwind CSS as design token bridge for frictionless engineering handoff."
+      }
+    ]
+  },
+  {
+    "id": "task-allocation",
+    "index": "03",
+    "title": "Task Allocation System",
+    "year": "2025",
+    "tools": ["Figma", "Node.js"],
+    "category": "Healthcare Operations",
+    "overview": "Designing the shift and task management system for an aged care facility where unassigned tasks and scheduling conflicts aren't just inefficiencies — they're risks to resident care.",
+    "problem": "Task allocation and shift management were handled through spreadsheets and WhatsApp, making it difficult to track workloads, reassign staff, and prevent scheduling conflicts. Critical resident care tasks were at risk of being overlooked between shifts.",
+    "solution": "Created a real-time workforce allocation platform that enables supervisors to assign, monitor, and reallocate tasks from a single interface. Centralizing scheduling data improves operational visibility, reduces administrative effort, and minimizes the risk of missed care tasks.",
+    "features": [
+      {
+        "title": "Auto-Assignment",
+        "description": "Logic that matches task complexity to user skill level and availability."
+      },
+      {
+        "title": "Task Verification",
+        "description": "Every completed task requires verification to ensure full task completion."
+      },
+      {
+        "title": "Fully Reusable",
+        "description": "Allows all types of users and facilities with different structures to adopt seamlessly."
+      },
+      {
+        "title": "Integrated with Schedule",
+        "description": "Connected to the shift scheduling system and staff leave management."
+      }
+    ]
+  },
+  {
+    "id": "staff-scheduling",
+    "index": "04",
+    "title": "Staff Shift Scheduling",
+    "year": "2024",
+    "tools": ["Figma"],
+    "category": "Healthcare Management",
+    "overview": "A complex scheduling interface for healthcare managers. Designed to handle hundreds of staff members across rolling monthly rosters with strict compliance rules.",
+    "problem": "Nurse managers spent 20+ hours a week on paper rosters, frequently resulting in double-booking and compliance violations that put patient care at risk.",
+    "solution": "A drag-and-drop calendar interface with an integrated 'conflict checker' that flags fatigue and double-booking violations before the roster is published.",
+    "features": [
+      {
+        "title": "Flexible Views",
+        "description": "Seamlessly toggle between granular daily assignments and monthly overviews."
+      },
+      {
+        "title": "Drag-and-Drop",
+        "description": "Intuitive interaction model for assigning and swapping shifts in seconds."
+      },
+      {
+        "title": "Conflict Detection",
+        "description": "Automatic flagging of fatigue rules and double-booked staff before publishing."
+      },
+      {
+        "title": "Export to PDF",
+        "description": "Clean, printable rosters generated for on-site physical displays."
+      }
+    ]
+  }
+]

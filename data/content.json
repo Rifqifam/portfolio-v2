@@ -1,0 +1,33 @@
+{
+  "name": "Muhammad Rifqi Fameizy",
+  "nickname": "Fam",
+  "role": "UI/UX Designer",
+  "tagline": "Designing systems,\nnot just screens.",
+  "bio": "I've spent my career embedded inside product teams — not as a single member, but diving deep into each role across the full product delivery lifecycle. From client problem discussions and flow breakdowns to development and testing, I understand both sides of the design–engineering handoff.",
+  "availability": "Open to opportunities",
+  "education": [
+    {
+      "institution": "Universitas Gadjah Mada",
+      "degree": "Bachelor of Computer Science",
+      "grade": "3.82 / 4.00",
+      "period": "2018 – 2022",
+      "location": "Indonesia"
+    },
+    {
+      "institution": "University of Birmingham",
+      "degree": "Exchange Program — Computer Science",
+      "period": "2023",
+      "location": "United Kingdom"
+    }
+  ],
+  "stats": [
+    { "value": "5", "label": "Years in product teams" },
+    { "value": "20+", "label": "Features shipped" },
+    { "value": "100+", "label": "Design components built" }
+  ],
+  "contact": {
+    "email": "your.email@example.com",
+    "linkedin": "https://linkedin.com/in/your-profile",
+    "github": "https://github.com/your-username"
+  }
+}

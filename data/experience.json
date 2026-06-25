@@ -1,0 +1,59 @@
+[
+  {
+    "company": "Adaptive AI Ventures",
+    "location": "Singapore (Remote)",
+    "roles": [
+      {
+        "title": "User Experience Team Lead",
+        "period": "2025 – Present",
+        "current": true
+      },
+      {
+        "title": "Software Engineer & UX Designer",
+        "period": "2024 – 2025",
+        "current": false
+      },
+      {
+        "title": "AI & Automation Intern",
+        "period": "2023 – 2024",
+        "current": false
+      }
+    ],
+    "skills": ["Next.js", "TypeScript", "MongoDB", "REST APIs", "Figma"],
+    "highlights": [
+      "Led UX strategy and design system architecture for a growing SaaS platform serving aged care facilities",
+      "Built a reusable component library and token-based design system standardizing 100+ components",
+      "Integrated AI tools (Claude AI, Stitch AI) into the design workflow for deeper UX exploration",
+      "Designed systems across resident onboarding, booking, payments, nurse scheduling, and stock inventory"
+    ],
+    "impact": {
+      "products": "5",
+      "features": "20+",
+      "platforms": "3"
+    }
+  },
+  {
+    "company": "Made Indonesia",
+    "location": "Singapore (Remote)",
+    "roles": [
+      {
+        "title": "Junior Front-End Developer",
+        "period": "2022 – 2023",
+        "current": false
+      },
+      {
+        "title": "Frontend Developer Trainee",
+        "period": "2022",
+        "current": false
+      }
+    ],
+    "skills": ["ReactJS", "WordPress", "JavaScript", "PHP", "SCSS"],
+    "highlights": [
+      "Developed and maintained client-facing websites for European customers under Dutch project management",
+      "Built custom WordPress themes and implemented frontend features using JavaScript, PHP, and SCSS",
+      "Collaborated in an international environment delivering responsive websites and e-commerce platforms",
+      "Created technical documentation and implementation guides incorporated into the company knowledge base"
+    ],
+    "impact": null
+  }
+]
