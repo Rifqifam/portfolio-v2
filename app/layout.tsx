@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://rifqifam-portfolio.vercel.app";
@@ -125,11 +126,12 @@ export default function RootLayout({
       <body className="min-h-full">
         <a
           href="#main-content"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-ink focus:text-cream focus:text-sm focus:rounded"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-100 focus:px-4 focus:py-2 focus:bg-ink focus:text-cream focus:text-sm focus:rounded"
         >
           Skip to content
         </a>
         {children}
+        <Analytics />
       </body>
     </html>
   );
