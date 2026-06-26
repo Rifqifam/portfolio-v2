@@ -19,7 +19,15 @@
         "current": false
       }
     ],
-    "skills": ["Next.js", "TypeScript", "MongoDB", "REST APIs", "Figma"],
+    "skills": [
+      "User Interface",
+      "User Experience",
+      "Figma",
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "REST APIs"
+    ],
     "highlights": [
       "Led UX strategy and design system architecture for a growing SaaS platform serving aged care facilities",
       "Built a reusable component library and token-based design system standardizing 100+ components",

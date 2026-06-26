@@ -19,6 +19,7 @@ interface Project {
   problem: string;
   solution: string;
   features: Feature[];
+  figmaUrl?: string;
 }
 
 interface ProjectDrawerProps {
@@ -95,6 +96,23 @@ export default function ProjectDrawer({ project, onClose }: ProjectDrawerProps) 
                     ))}
                   </div>
                 </div>
+                {project.figmaUrl && (
+                  <a
+                    href={project.figmaUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-flex items-center gap-2 px-4 py-2 text-xs font-medium border border-border text-muted rounded-full hover:text-ink hover:border-ink transition-colors"
+                  >
+                    <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M3 16C4.657 16 6 14.657 6 13V10H3C1.343 10 0 11.343 0 13C0 14.657 1.343 16 3 16Z" fill="#0ACF83"/>
+                      <path d="M0 7C0 5.343 1.343 4 3 4H6V10H3C1.343 10 0 8.657 0 7Z" fill="#A259FF"/>
+                      <path d="M0 1C0 -0.657 1.343 -2 3 -2H6V4H3C1.343 4 0 2.657 0 1Z" fill="#F24E1E" transform="translate(0,2)"/>
+                      <path d="M6 0H9C10.657 0 12 1.343 12 3C12 4.657 10.657 6 9 6H6V0Z" fill="#FF7262"/>
+                      <path d="M12 9C12 10.657 10.657 12 9 12C7.343 12 6 10.657 6 9C6 7.343 7.343 6 9 6C10.657 6 12 7.343 12 9Z" fill="#1ABCFE"/>
+                    </svg>
+                    View in Figma
+                  </a>
+                )}
               </div>
               <button
                 onClick={onClose}

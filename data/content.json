@@ -3,14 +3,14 @@
   "nickname": "Fam",
   "role": "UI/UX Designer",
   "tagline": "Designing systems,\nnot just screens.",
-  "bio": "I've spent my career embedded inside product teams — not as a single member, but diving deep into each role across the full product delivery lifecycle. From client problem discussions and flow breakdowns to development and testing, I understand both sides of the design–engineering handoff.",
+  "bio": "I've spent my career embedded inside product teams - not as a single member, but diving deep into each role across the full product delivery lifecycle. From client problem discussions and flow breakdowns to development and testing, I understand both sides of the design–engineering handoff.",
   "availability": "Open to opportunities",
   "education": [
     {
       "institution": "Universitas Gadjah Mada",
       "degree": "Bachelor of Computer Science",
       "grade": "3.82 / 4.00",
-      "period": "2018 – 2022",
+      "period": "2021 – 2025",
       "location": "Indonesia"
     },
     {
@@ -21,13 +21,13 @@
     }
   ],
   "stats": [
-    { "value": "5", "label": "Years in product teams" },
-    { "value": "20+", "label": "Features shipped" },
+    { "value": "2", "label": "Years in product teams" },
+    { "value": "25+", "label": "Features shipped" },
     { "value": "100+", "label": "Design components built" }
   ],
   "contact": {
-    "email": "your.email@example.com",
-    "linkedin": "https://linkedin.com/in/your-profile",
-    "github": "https://github.com/your-username"
+    "email": "rifqifmeizy@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rifqifameizy/",
+    "github": "https://github.com/Rifqifam"
   }
 }

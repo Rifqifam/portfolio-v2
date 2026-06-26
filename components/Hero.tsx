@@ -52,7 +52,7 @@ export default function Hero() {
 
         {/* Headline */}
         <h1 className="text-[clamp(3.2rem,9vw,9rem)] font-bold leading-[0.95] tracking-tight">
-          <div className="overflow-hidden">
+          <div className="overflow-hidden pb-[0.15em]">
             {line1.map((word, i) => (
               <motion.span
                 key={`l1-${i}`}
@@ -65,7 +65,7 @@ export default function Hero() {
               </motion.span>
             ))}
           </div>
-          <div className="overflow-hidden">
+          <div className="overflow-hidden pb-[0.15em]">
             {line2.map((word, i) => (
               <motion.span
                 key={`l2-${i}`}

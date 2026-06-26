@@ -9,6 +9,7 @@
     "overview": "A sophisticated enterprise tool designed to manage complex inventory movements across global warehouses. The system focuses on visibility, preventing stock-outs, and automating the reconciliation process.",
     "problem": "The client had a massive company structure broken down into multiple facilities under the HQ. While their operation uses a centralized system from the HQ to allocate stocks, it's difficult for the HQ to manage stocks, allocate them to each individual facility, and to predict whether they have sufficient stock or not.",
     "solution": "We built a centralized source of truth with a focus on 'transfer state' — ensuring items are tracked not just in the HQ, but between facilities. With live notifications for stock status tracking on each individual facility, and a solid reconciliation workflow to accommodate mis-transfers or facilities failing to receive items.",
+    "figmaUrl": "https://www.figma.com/design/Yi1R9hkhUPfm4uzFb7aE98/Stock-Inventory-Showcase?node-id=1-17215&t=qHcKYrfR8UGtQ0uQ-1",
     "features": [
       {
         "title": "Real-time Tracking",
@@ -67,6 +68,7 @@
     "overview": "Designing the shift and task management system for an aged care facility where unassigned tasks and scheduling conflicts aren't just inefficiencies — they're risks to resident care.",
     "problem": "Task allocation and shift management were handled through spreadsheets and WhatsApp, making it difficult to track workloads, reassign staff, and prevent scheduling conflicts. Critical resident care tasks were at risk of being overlooked between shifts.",
     "solution": "Created a real-time workforce allocation platform that enables supervisors to assign, monitor, and reallocate tasks from a single interface. Centralizing scheduling data improves operational visibility, reduces administrative effort, and minimizes the risk of missed care tasks.",
+    "figmaUrl": "https://www.figma.com/design/I0T9fanFsUgGeegXzOcToe/Task-Allocation-Showcase?node-id=0-1&t=VSm9A7P2EDQ2Wbwg-1",
     "features": [
       {
         "title": "Auto-Assignment",
@@ -96,6 +98,7 @@
     "overview": "A complex scheduling interface for healthcare managers. Designed to handle hundreds of staff members across rolling monthly rosters with strict compliance rules.",
     "problem": "Nurse managers spent 20+ hours a week on paper rosters, frequently resulting in double-booking and compliance violations that put patient care at risk.",
     "solution": "A drag-and-drop calendar interface with an integrated 'conflict checker' that flags fatigue and double-booking violations before the roster is published.",
+    "figmaUrl": "https://www.figma.com/design/J6upojYVRbN1cuPGiIxDFp/Staff-scheduling-showcase?node-id=0-1&t=bIEQs3LT21ujAt76-1",
     "features": [
       {
         "title": "Flexible Views",
