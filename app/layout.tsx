@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://fameizy.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://rifqifam-portfolio.vercel.app";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
